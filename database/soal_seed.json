@@ -1,0 +1,182 @@
+[
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.1",
+    "subbab": "ordo_matriks",
+    "soal": "Matriks A = [[2,4,6],[1,3,5]] mempunyai ordo...",
+    "pilihan": ["A. 2x3", "B. 3x2", "C. 2x2", "D. 3x3"],
+    "jawaban": "A",
+    "penjelasan": "Ordo matriks ditulis (baris x kolom). Matriks A punya 2 baris dan 3 kolom, jadi ordonya 2x3."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.1",
+    "subbab": "elemen_matriks",
+    "soal": "Diketahui matriks B = [[5,7],[9,2]]. Nilai elemen baris ke-2 kolom ke-1 (b21) adalah...",
+    "pilihan": ["A. 5", "B. 7", "C. 9", "D. 2"],
+    "jawaban": "C",
+    "penjelasan": "Elemen b21 berarti baris 2, kolom 1. Pada baris kedua [9,2], elemen kolom 1 adalah 9."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.1",
+    "subbab": "pengertian_matriks",
+    "soal": "Matriks adalah susunan bilangan yang diatur dalam...",
+    "pilihan": [
+      "A. baris dan kolom berbentuk persegi panjang",
+      "B. garis lurus saja",
+      "C. bentuk lingkaran",
+      "D. urutan angka acak tanpa aturan"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Matriks adalah susunan bilangan (elemen) yang diatur dalam baris dan kolom membentuk persegi/persegi panjang."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.1",
+    "subbab": "ordo_matriks",
+    "soal": "Matriks C berordo 3x1. Banyak elemen dalam matriks C adalah...",
+    "pilihan": ["A. 1", "B. 3", "C. 4", "D. 9"],
+    "jawaban": "B",
+    "penjelasan": "Banyak elemen = baris x kolom = 3 x 1 = 3."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.1",
+    "subbab": "elemen_matriks",
+    "soal": "Matriks D = [[1,0,3],[4,5,6]]. Elemen d13 (baris 1, kolom 3) adalah...",
+    "pilihan": ["A. 1", "B. 0", "C. 3", "D. 4"],
+    "jawaban": "C",
+    "penjelasan": "Baris pertama D adalah [1,0,3]. Elemen kolom ke-3 pada baris itu adalah 3."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.2",
+    "subbab": "penjumlahan_matriks",
+    "soal": "Jika A = [[1,2],[3,4]] dan B = [[5,6],[7,8]], maka hasil A + B adalah...",
+    "pilihan": [
+      "A. [[6,8],[10,12]]",
+      "B. [[4,4],[4,4]]",
+      "C. [[5,12],[21,32]]",
+      "D. [[6,8],[11,12]]"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Penjumlahan matriks dilakukan per elemen seletak: 1+5=6, 2+6=8, 3+7=10, 4+8=12."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.2",
+    "subbab": "pengurangan_matriks",
+    "soal": "Jika P = [[8,5],[6,3]] dan Q = [[2,1],[4,2]], maka hasil P - Q adalah...",
+    "pilihan": [
+      "A. [[6,4],[2,1]]",
+      "B. [[10,6],[10,5]]",
+      "C. [[6,4],[2,2]]",
+      "D. [[6,5],[2,1]]"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Pengurangan matriks dilakukan per elemen seletak: 8-2=6, 5-1=4, 6-4=2, 3-2=1."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.2",
+    "subbab": "perkalian_skalar",
+    "soal": "Jika A = [[2,3],[4,1]] dan k = 3, maka hasil 3A adalah...",
+    "pilihan": [
+      "A. [[6,9],[12,3]]",
+      "B. [[5,6],[7,4]]",
+      "C. [[6,9],[12,4]]",
+      "D. [[2,3],[4,1]]"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Perkalian skalar dilakukan dengan mengalikan setiap elemen matriks dengan k: 2x3=6, 3x3=9, 4x3=12, 1x3=3."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.2",
+    "subbab": "penjumlahan_matriks",
+    "soal": "Syarat dua matriks dapat dijumlahkan atau dikurangkan adalah...",
+    "pilihan": [
+      "A. ordo kedua matriks harus sama",
+      "B. jumlah seluruh elemen harus sama",
+      "C. salah satu matriks harus matriks identitas",
+      "D. kedua matriks harus persegi"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Penjumlahan/pengurangan matriks hanya bisa dilakukan jika kedua matriks punya ordo (banyak baris dan kolom) yang sama."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.2",
+    "subbab": "pengurangan_matriks",
+    "soal": "Diketahui M = [[10,4],[7,9]] dan N = [[3,2],[5,1]]. Hasil M - N adalah...",
+    "pilihan": [
+      "A. [[7,2],[2,8]]",
+      "B. [[13,6],[12,10]]",
+      "C. [[7,2],[2,9]]",
+      "D. [[7,6],[2,8]]"
+    ],
+    "jawaban": "A",
+    "penjelasan": "10-3=7, 4-2=2, 7-5=2, 9-1=8, sehingga hasilnya [[7,2],[2,8]]."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.3",
+    "subbab": "matriks_identitas",
+    "soal": "Jika I adalah matriks identitas ordo 2x2, maka I = ...",
+    "pilihan": [
+      "A. [[1,0],[0,1]]",
+      "B. [[0,1],[1,0]]",
+      "C. [[1,1],[0,0]]",
+      "D. [[0,0],[1,1]]"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Matriks identitas punya angka 1 di sepanjang diagonal utama dan 0 di posisi lainnya."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.3",
+    "subbab": "matriks_identitas",
+    "soal": "Untuk sembarang matriks persegi A ordo 2x2 dan I adalah matriks identitas ordo 2x2, maka hasil A x I adalah...",
+    "pilihan": ["A. A", "B. I", "C. matriks nol", "D. 2A"],
+    "jawaban": "A",
+    "penjelasan": "Matriks identitas bersifat seperti angka 1 dalam perkalian bilangan biasa: A x I = A."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.3",
+    "subbab": "perkalian_matriks",
+    "soal": "Diketahui A = [[1,2],[3,4]] dan B = [[2,0],[1,2]], keduanya berordo 2x2. Hasil A x B adalah...",
+    "pilihan": [
+      "A. [[4,4],[10,8]]",
+      "B. [[2,0],[3,8]]",
+      "C. [[3,2],[4,6]]",
+      "D. [[4,4],[9,8]]"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Baris 1: (1x2+2x1, 1x0+2x2) = (4,4). Baris 2: (3x2+4x1, 3x0+4x2) = (10,8)."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.3",
+    "subbab": "perkalian_matriks",
+    "soal": "Matriks A berordo 2x3 dapat dikalikan (A x B) dengan matriks B yang berordo...",
+    "pilihan": ["A. 3xn (n bebas)", "B. 2x3", "C. 3x2 saja", "D. 2x2"],
+    "jawaban": "A",
+    "penjelasan": "Syarat perkalian matriks: banyak kolom A harus sama dengan banyak baris B. Karena A berordo 2x3, maka B harus berordo 3xn."
+  },
+  {
+    "bab": "Matriks",
+    "cp": "CP 3.3",
+    "subbab": "matriks_identitas",
+    "soal": "Matriks identitas ordo 3x3 memiliki angka 1 pada posisi...",
+    "pilihan": [
+      "A. diagonal utama saja",
+      "B. seluruh elemen",
+      "C. baris pertama saja",
+      "D. kolom terakhir saja"
+    ],
+    "jawaban": "A",
+    "penjelasan": "Sama seperti matriks identitas ordo lain, angka 1 hanya berada di diagonal utama, sisanya 0."
+  }
+]
