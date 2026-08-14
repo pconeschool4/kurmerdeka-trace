@@ -1,0 +1,21 @@
+# render.yaml — Konfigurasi deploy backend ke Render free tier
+# Docs: https://render.com/docs/render-yaml-spec
+
+services:
+  - type: web
+    name: kurmerdeka-trace-api
+    runtime: python
+    region: singapore  # Terdekat dari Indonesia
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: SUPABASE_URL
+        sync: false  # Diisi manual di Render dashboard
+      - key: SUPABASE_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: APP_ENV
+        value: production
